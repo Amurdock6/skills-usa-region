@@ -6,6 +6,7 @@
 body{
     background-color: #fff;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -98,17 +99,30 @@ aside img {
     position: relative;
     left: 23%;
     transform: skewX(-2deg);
+    overflow: hidden;
 }
 
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
   }
 
   .sticky + body {
     padding-top: 0px;
   }
+
+#top {
+  width: 99%;
+  height: 100vh;
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#top h1{
+  
+}
 
 #services{
     position: absolute;
