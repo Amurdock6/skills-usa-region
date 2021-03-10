@@ -39,12 +39,12 @@ aside p{
 
 aside p:hover {
     color: #fff;
-    transition: 0.6s;
+    transition: 0.8s;
 }
 
 aside h3:hover {
     color: #fff;
-    transition: 0.6s;
+    transition: 0.8s;
 }
 
 aside p, aside h3 {
@@ -64,7 +64,7 @@ aside p, aside h3 {
     background: #fff;
     height: 4px;
     transition-property: width;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-out;
   }
   
