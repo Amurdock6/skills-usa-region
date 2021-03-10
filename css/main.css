@@ -8,6 +8,15 @@ body{
     margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: white;
+}
 /* side nav bar */
 aside {
     background-color: #696969;
@@ -15,12 +24,18 @@ aside {
     position: sticky;
     top: 0;
     margin-left: -16px;
-    width: 23%;
+    width: 17%;
     height: 100vh;
     margin-bottom: 0;
     text-align: center;
     text-emphasis: bold;
     transform: skewX(2deg);
+}
+
+@media only screen and (max-width: 1280px){
+  aside {
+   width: 23%; 
+  }
 }
 
 aside h3{
@@ -99,5 +114,25 @@ aside img {
     position: absolute;
     top: 100%;
     left:20%;
-    width:70%
+    width: 80%;   
+}
+
+#services h1 {
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 30px;
+  font-size: 4em;
+  margin-left: -50px;
+}
+
+#services .img-wrapper {
+  display: flex;
+}
+
+#services img {
+  width: 700px;
+  height: 400px;
+  margin-right: 43px;
+  margin-left: 2px;
+  border: 4px solid #696969;
 }
